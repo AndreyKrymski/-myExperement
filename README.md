@@ -1,7 +1,7 @@
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
-
+[![.github/workflows/hexlet-check.yaml](https://github.com/AndreyKrymski/-myExperement/actions/workflows/hexlet-check.yaml/badge.svg)](https://github.com/AndreyKrymski/-myExperement/actions/workflows/hexlet-check.yaml)
 ## System requirements
 
 * NodeJS >= 12 <= 16

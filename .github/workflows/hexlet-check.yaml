@@ -1,14 +1,18 @@
 name: hexlet-check
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps: step1
-      - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
-        name: instal
-        - run: make install
-        - run: make test
-        - run: make lint
+        with:
+          node-version: "14.x"
+      - run: make install
+      - run: make test
+      - run: make lint
